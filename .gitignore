@@ -1,0 +1,36 @@
+# UE特定文件
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+Build/
+*.log
+
+# 二进制文件
+*.dll
+*.exe
+*.app
+*.ipa
+
+# IDE文件
+.idea/
+.vscode/
+*.code-workspace
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 项目文件（但保留 .uproject）
+*.uproject
+!*.uproject.filter
+
+# 内容文件（选择性忽略）
+#Content/   # 暂时不忽略，等有具体资产再说
